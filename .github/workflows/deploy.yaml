@@ -24,7 +24,9 @@ jobs:
         run: bandit -r -q . -x ./.venv,./.aws-sam --format screen
 
       - name: Run tests
-        run: pytest tests/
+        run: |
+          export PYTHONPATH=$(pwd)
+          pytest tests/
 
       - uses: aws-actions/setup-sam@v2
       - uses: aws-actions/configure-aws-credentials@v1
