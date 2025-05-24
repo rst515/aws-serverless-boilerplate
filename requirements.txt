@@ -1,0 +1,15 @@
+aws-lambda-powertools
+aws_xray_sdk
+boto3
+
+moto
+pytest
+
+bandit
+coverage
+mypy
+prospector
+pytest
+pytest-clarity
+pytest-mock
+pytest-sugar

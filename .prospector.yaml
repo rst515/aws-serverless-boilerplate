@@ -1,0 +1,18 @@
+output-format: pylint
+
+strictness: veryhigh
+test-warnings: true
+doc-warnings: false
+autodetect: false
+
+ignore-paths:
+  - .venv
+
+pep8:
+  full: true
+  options:
+    max-line-length: 120
+
+mccabe:
+  disable:
+    - MC0001
