@@ -9,7 +9,7 @@ purple      () { printf "\e[35m"      ; "$@" ; printf "\e[0m"; }
 purple echo 'Running pre-push checks...' && \
 
 lt_yellow echo 'Running prospector checks for information about errors, potential problems, convention violations and complexity...' && \
-prospector  --max-line-length 120 --output-format pylint && \
+prospector  --max-line-length 120 && \
 
 lt_yellow echo 'Running mypy static type checks...' && \
 mypy && \
