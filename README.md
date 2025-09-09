@@ -91,7 +91,7 @@ sam deploy --parameter-overrides TableName=your-table-name Stage=dev
 ```bash
 tools/dev/pre_push.sh
 ```
-
+Requires `chmod +x tools/dev/pre_push.sh` before first use.
 
 ## Project structure
 
