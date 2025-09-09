@@ -8,8 +8,8 @@ pytest
 bandit
 coverage
 mypy
-prospector
 pytest
 pytest-clarity
 pytest-mock
 pytest-sugar
+ruff
